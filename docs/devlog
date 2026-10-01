@@ -1,0 +1,17 @@
+# Devlog — network-security-lab
+
+Registro de sessões de estudo da Fase 1 em diante. Uma entrada por sessão: o que foi estudado, o que foi praticado, onde travou, como resolveu.
+
+## 2026-09-30
+
+- Estudei: Missing Semester aula 1 (shell, redirecionamento, pipes) + 10 exercícios práticos
+- Pratiquei: cd, mkdir, ls -la, >, >>, echo -e, grep, wc -l, regex ^
+- Travei em: touch não gera conteúdo; echo com vírgula não separa comandos; grep -l lista nome de arquivo, não conteúdo
+- Resolvi: usei echo -e para redirecionamento com conteúdo; grep "^d" para início de linha
+
+## 2026-09-30 (parte 2)
+
+- Estudei: exercícios oficiais da aula 1 do Missing Semester (shebang, chmod, permissões de execução)
+- Pratiquei: touch, man, chmod octal, redirecionamento + pipe combinados, shebang line
+- Travei em: escrevia conteúdo de script digitando direto no terminal em vez de usar editor; confundi /tmp (absoluto) com tmp relativo à home
+- Resolvi: usei nano pra editar o arquivo de verdade; aprendi a sempre conferir com cat antes de assumir que o script tem conteúdo
