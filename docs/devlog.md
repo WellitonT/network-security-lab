@@ -11,3 +11,10 @@
 - Pratiquei: vimtutor, .vimrc (set number, syntax on, tabstop, expandtab), navegação hjkl/w/b/0/$/gg/G, edição dd/yy/p/x/u, VSCodeVim, substituição :s com regex e grupos de captura \(\) \1, J para juntar linhas, macros qa/@a/@@
 - Travei em: cursor desalinhado ao combinar k k + J dentro da macro gravada, causando junção de linhas erradas
 - Resolvi: refiz passo a passo sem macro, conferindo a posição do cursor com :echo line(".") antes de cada J, até validar a lógica manualmente
+
+## 2026-10-10
+
+- Estudei: Missing Semester aula 4 (Data Wrangling), exercícios 1-3 oficiais completos
+- Pratiquei: regexone.com (regex básico), sed substituicao s/.../.../, sed -i (edicao in-place), perigo do redirecionamento > no mesmo arquivo de entrada, regex com repeticao de grupos (.*a.*a.*a), grep -v para exclusao, grep -oE para extrair so o match, sort | uniq -c | sort -rn para contagem e ranking
+- Travei em: regex com espacos literais por engano; aspas simples vs duplas ao incluir apostrofo no padrao; confundi exercicios do regexone.com com os exercicios oficiais da aula (fontes diferentes, numeracao diferente)
+- Resolvi: sed -i para edicao segura in-place; troquei aspas externas para duplas para liberar o apostrofo dentro do padrao; separei claramente as duas fontes de exercicios
