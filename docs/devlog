@@ -15,3 +15,10 @@ Registro de sessões de estudo da Fase 1 em diante. Uma entrada por sessão: o q
 - Pratiquei: touch, man, chmod octal, redirecionamento + pipe combinados, shebang line
 - Travei em: escrevia conteúdo de script digitando direto no terminal em vez de usar editor; confundi /tmp (absoluto) com tmp relativo à home
 - Resolvi: usei nano pra editar o arquivo de verdade; aprendi a sempre conferir com cat antes de assumir que o script tem conteúdo
+
+## 2026-10-10
+
+- Estudei: Missing Semester aula 5 (Command-line Environment)
+- Pratiquei: -- como fim de opções, controle de jobs (Ctrl-Z, bg, pgrep/pkill), espera por PID com kill -0, tmux, aliases e dotfiles com links simbólicos, chave SSH ed25519 com passphrase, hardening do sshd (sem senha, sem root), ~/.ssh/config
+- Travei em: aspa aberta no PS1 quebrou o .bashrc; link simbólico apontando para arquivo de uma linha; repositório remoto não criado antes do push
+- Resolvi: restaurei o .bashrc padrão de /etc/skel e recoloquei o PS1 fechado; criei o repositório no GitHub e conectei o remoto
